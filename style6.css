@@ -1,0 +1,177 @@
+/* ----------------------CSS Reset------------------------------------------- */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ----------------------------NavBar------------------------- */
+#Navbar{
+	background-color:  #ecf0f3;
+	padding: 10px;
+	text-align: center;
+	border-radius: 40px;
+	box-shadow: 13px 13px 20px #cbced1;
+	cursor: pointer;
+	margin-top: 10px;
+	padding-top: 10px;
+
+	
+}
+
+/* ------------------------Parent Navbar-------------------- */
+
+.HomeMenu{
+	display: inline;
+	font-size: 20px;
+	padding: 12px;
+	color: #5e17eb;
+	text-decoration: none;
+	
+
+	margin-right: 25px;
+	margin-top: 10px;
+}
+.HomeMenu:hover{
+	
+	border-radius: 40px;
+	background-color: #ecf0f3; ;
+	font-size: 22px; 
+	font-family: 'Baloo Bhai 2', cursive;
+	box-shadow: 13px 13px 20px #5e17eb;
+	
+	
+}
+.HomeMenu:hover ul li a{
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+/* -------------------------------------DropDown1-------------------------------------- */
+.course{
+	display: inline;
+	margin: 10px;
+}
+#HomeMenu1{
+	display: none;
+}
+
+.HomeMenu:hover #HomeMenu1{
+	display: block;
+	position: absolute;
+	font-family: none;
+	font-size: 20px;
+	font-weight: 300;
+	
+	margin-left: 345px;
+	margin-top: 22px;
+	
+}
+
+.course{
+	background-color:#ecf0f3; 
+	color:#5e17eb;
+	padding: 10px;
+	border-radius: 20px;
+}
+.submenu{
+	display: none;
+}
+
+.course:hover{
+	color:#5e17eb;
+	background-color: #ecf0f3; 
+	font-family: 'Baloo Bhai 2', cursive;
+}
+
+.course:hover .submenu{
+	display: block;
+	position: absolute;
+
+}
+
+/* -------------------------DropDown 2------------------------------------ */
+
+.submenu1{
+	text-align: center;
+	display: block;
+	background-color:#ecf0f3; 
+	width: 8em;
+	word-spacing: 10px;
+	font-weight: 600;
+	
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 28px;
+	margin-top: 15px;
+	box-shadow: 13px 13px 20px #5e17eb;
+}
+.submenu2{
+	text-align: center;
+	display: block;
+	background-color:#ecf0f3; 
+	width: 8em;
+	word-spacing: 10px;
+	font-weight: 600;
+	padding: 5px;
+	border-radius: 15px;
+	font-family: 'Baloo Bhai 2', cursive;
+	margin-left: 250px;
+	margin-top: 15px;
+	box-shadow: 13px 13px 20px #5e17eb;
+	
+}
+.submenu3{
+	text-align: center;
+	display: block;
+	background-color: #ecf0f3; 
+	width: 8em;
+	word-spacing: 10px;
+	font-weight: 600;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 430px;
+	font-family: 'Baloo Bhai 2', cursive;
+	margin-top: 15px;
+	box-shadow: 13px 13px 20px #5e17eb;
+	
+}
+.submenu4{
+	text-align: center;
+	display: block;
+	background-color: #ecf0f3; 
+	color:#5e17eb;
+	width: 8em;
+	word-spacing: 10px;
+	font-weight: 600;
+	padding: 5px;
+	border-radius: 15px;
+	font-family: 'Baloo Bhai 2', cursive;
+	margin-left: 550px;
+	margin-top: 15px;
+	box-shadow: 13px 13px 20px #5e17eb;
+
+}
+.submenu1:hover {
+	background-color:#ecf0f3; 
+	color: #5e17eb;
+	font-size: 24px;
+	font-weight: 678;
+}
+.submenu2:hover {
+	background-color:#ecf0f3; 
+	color: #5e17eb;
+	font-size: 24px;
+	font-weight: 678;
+}
+.submenu3:hover {
+	background-color:#ecf0f3; 
+	color:  #5e17eb;
+	font-size: 24px;
+	font-weight: 678;
+}
+.submenu4:hover {
+	background-color: #ecf0f3; 
+	color: #5e17eb;
+	font-size: 24px;
+	font-weight: 678;
+}
